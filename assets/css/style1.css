@@ -1,0 +1,56 @@
+.photo {
+  width: 400px;
+  border-radius: 50%;
+  float: left;
+}
+p.description {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 30px;
+}
+.grid_layout {
+  display: grid;
+  grid-template-columns: 150px 300px;
+  grid-template-rows: 50px 50px 50px;
+  gap: 2px;
+}
+.grid {
+  padding: 5px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  font-size: 18px;
+  font-weight: bold;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.project-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: black;
+}
+.project-image-div {
+  display: flex;
+  justify-content: center;
+}
+.project-image {
+  width: 200px;
+  border-radius: 10%;
+}
+div.des {
+  padding: 20px 80px 20px 100px;
+  font-size: 20px;
+  line-height: 32px;
+}
+h3 {
+  padding: 30px 0px 50px 0px;
+  font-family: "Poppins", sans-seri;
+}
+.repo {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
