@@ -2,6 +2,8 @@
 
 Showcasing personal profile and projects developed during "Post Graduate Certification in Full Stack Development" course conducted bt MIT xPRO institute.
 
+## [Demo](https://nandhinikarvendhan.github.io/)
+
 ## License information:
 
 MIT License
