@@ -4,6 +4,10 @@ Showcasing personal profile and projects developed during "Post Graduate Certifi
 
 ## [Demo](https://nandhinikarvendhan.github.io/)
 
+## Technology
+
+- Javascript
+
 ## License information:
 
 MIT License
