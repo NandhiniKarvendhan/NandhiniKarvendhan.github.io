@@ -6,6 +6,8 @@ Showcasing personal profile and projects developed during "Post Graduate Certifi
 
 ## Technology
 
+- Html
+- CSS
 - Javascript
 
 ## License information:
