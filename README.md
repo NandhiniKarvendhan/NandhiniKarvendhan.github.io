@@ -1,6 +1,6 @@
 # Nandhini's Portfolio
 
-Showcasing personal profile and projects developed during "Post Graduate Certification in Full Stack Development" course conducted bt MIT xPRO institute.
+Showcasing personal profile and projects developed during "Post Graduate Certification in Full Stack Development" course conducted by MIT xPRO institute.
 
 ## [Demo](https://nandhinikarvendhan.github.io/)
 
