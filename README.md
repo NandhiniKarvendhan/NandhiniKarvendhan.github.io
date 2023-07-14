@@ -6,7 +6,7 @@ Showcasing personal profile and projects developed during "Post Graduate Certifi
 
 ## Screenshot
 
-![](./assets/img/portfolio.png
+![](./assets/img/portfolio.png)
 
 ## Technology
 
