@@ -379,7 +379,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" onsubmit="sendEmail()">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" onsubmit="sendEmail(); reset(); return false;">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -453,7 +453,7 @@
     Host : "smtp.elasticemail.com",
     Username : "nandhukannan10@gmail.com",
     Password : "Nandhini*1",
-    To : 'nandhukannan10@gmail.com',
+    To : 'knanthu93@gmail.com',
     From : document.getElementById("email").value,
     Subject : "Portfolio New Contact",
     Body : "And this is the body"
