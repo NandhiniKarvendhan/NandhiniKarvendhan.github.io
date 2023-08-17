@@ -379,7 +379,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" onsubmit="sendEmail()">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -445,7 +445,23 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+ <!-- smtpjs.com  Send email from Javascript -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
 
+    function sendEmail(){Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "nandhukannan10@gmail.com",
+    Password : "Nandhini*1",
+    To : 'nandhukannan10@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "Portfolio New Contact",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);}
+    
+  </script>
 </body>
 
 </html>
