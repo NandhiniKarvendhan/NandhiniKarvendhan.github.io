@@ -48,8 +48,9 @@ div.des {
   line-height: 32px;
 }
 h3 {
-  padding: 30px 0px 50px 0px;
+  padding: 10px 0px 10px 0px;
   font-family: "Poppins", sans-seri;
+ 
 }
 .repo {
   padding-bottom: 0;
@@ -58,3 +59,26 @@ h3 {
 .eye-icon {
   width: 25px;
 }
+
+.about .content .strength-list {
+  list-style-type: square; /* Square bullets */
+  list-style-position: outside; /* Bullets outside the list items */
+  margin-left: 30px; /* Indentation */
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+.about .content .strength-list li {
+  padding: 0;
+}
+.about .content .strength-list strong{
+  font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #2a2c39;
+    font-size: 22px;
+}
+
+
+
+
+
