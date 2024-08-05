@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  /* font-size: 20px; */
 }
 
 a {
@@ -221,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(20, 21, 28, 0.9);
+  background: rgba(20, 21, 28, 0.3);
   transition: 0.3s;
   z-index: 999;
 }
@@ -235,8 +236,8 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
-  left: 15px;
+  /* bottom: 15px;
+  left: 15px; */
   padding: 10px 0;
   border-radius: 10px;
   background-color: #fff;
@@ -1387,6 +1388,14 @@ section {
 
 /* Media Query */
 @media (max-width: 576px){
+
+  iframe{
+    width: 280px;
+    height: 215px;
+  }
+  .photo{
+    width: 100%;
+  }
   div.des{
     padding: 20px 0 0 0;
     font-size: 18px;
