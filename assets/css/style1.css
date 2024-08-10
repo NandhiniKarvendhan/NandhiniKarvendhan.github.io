@@ -1,5 +1,6 @@
 .photo {
   width: 400px;
+  height: 85%;
   border-radius: 50%;
   float: left;
 }
@@ -95,3 +96,85 @@ strong.strength{
 
 
 
+/* Skills *//* Wrapper styling */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Heading styling */
+/* h2 span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  border-bottom: 3px solid #e74c3c;
+  padding-bottom: 10px;
+} */
+
+/* Skills container styling */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  /* width: 70%; */
+}
+
+/* Individual skill item styling */
+.skills-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100px;
+}
+
+.skills-title:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skills-title span {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #e74c3c;
+}
+
+.skills-title p {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Icon styling */
+.skills-title .devicons {
+  font-size: 2.5rem;
+}
+
+.skills-title .material-icons {
+  font-size: 2.5rem;
+}
+
+/* Section title styling */
+.section-title h2 {
+  font-size: 2.5rem;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}

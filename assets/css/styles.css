@@ -9,7 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Sen", sans-serif !important;
   color: #444444;
   /* font-size: 20px; */
 }
@@ -536,6 +537,9 @@ section {
   background: #ef6603;
   color: #fff;
   text-decoration: none;
+}
+div.col-lg-6.photo {
+  /* padding: 30px 12px 12px 12px; */
 }
 
 /*--------------------------------------------------------------
@@ -1399,6 +1403,17 @@ section {
   .photo{
     width: 100%;
   }
+  section {
+    padding: 40px 0;}
+    .section-title {
+      padding-bottom: 20px;
+  }
+  .skills-container{
+    width: 100%;
+  }
+  .skills-title {
+    margin: 10px;
+      }
   div.des{
     padding: 20px 0 0 0;
     font-size: 18px;
@@ -1422,4 +1437,16 @@ section {
       #footer .credits {
         font-size: 9px;
     }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+  .skills-container{
+    width: 100%;
+  }
+  .skills-title {
+    margin: 20px;
+      }
+      .project-title {
+      font-size: 50px;
+      }
 }
