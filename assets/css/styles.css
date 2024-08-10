@@ -12,6 +12,8 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Sen", sans-serif !important;
   color: #444444;
+  letter-spacing: 1.5px;
+  line-height: 32px;
   /* font-size: 20px; */
 }
 button {
@@ -538,9 +540,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
-div.col-lg-6.photo {
-  /* padding: 30px 12px 12px 12px; */
-}
+
 
 /*--------------------------------------------------------------
 # Features
@@ -1425,6 +1425,7 @@ div.col-lg-6.photo {
   .project-title {  
     font-size: 30px;
     font-weight: 700;
+    padding-bottom: 10px;
 
   }
     #footer h3 {
@@ -1448,5 +1449,6 @@ div.col-lg-6.photo {
       }
       .project-title {
       font-size: 50px;
+      line-height: 45px;
       }
 }
