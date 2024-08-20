@@ -1408,6 +1408,9 @@ section {
     .section-title {
       padding-bottom: 20px;
   }
+  .section-title h2 {
+    line-height: 20px;
+  }
   .skills-container{
     width: 100%;
   }
